@@ -1,0 +1,21 @@
+{
+    "name": "node-react",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "client": "cd client && npm start",
+        "server": "node server.js",
+        "start": "nodemon ./src/server.js",
+        "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.16.2",
+        "knex": "^0.20.13",
+        "nodemon": "^2.0.2",
+        "sqlite3": "^4.1.1"
+    },
+    "devDependencies": {
+        "concurrently": "^3.5.0"
+    }
+}
