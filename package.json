@@ -9,7 +9,7 @@
         "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
     },
     "dependencies": {
-        "express": "^4.16.2",
+        "express": "^4.17.3",
         "knex": "^0.20.13",
         "sqlite3": "^4.1.1"
     },
